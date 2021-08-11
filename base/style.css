@@ -1,4 +1,36 @@
 
+a{
+    text-decoration: none !important;
+}
+a{
+    color: #B9B9B9 !important;
+}
+a:hover{
+	color: #F7CE68 !important;
+}
+a:active{
+	color: #FFFF00;
+}
+
+
+
+/*body { */
+/*    margin:0; */
+/*    padding:0; */
+/*    height:100%; */
+/*    background-color: ##F7CE68 !important*/
+/*}*/
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 16%, #B5FFFC 100%);
+
+}
+
+
+
+
+
+
 ol,p {
     margin: 0;
 }
@@ -132,7 +164,7 @@ ol{
 	animation-delay: -2s;
 	-webkit-animation-duration: 7s;
 	animation-duration: 7s;
-	fill: hsla(0, 0%, 100%, .7)
+	fill: hsla(177, 100.0%, 86.9%, .7)
 }
 
 .waves-area .parallax>use:nth-child(2) {
@@ -140,7 +172,7 @@ ol{
 	animation-delay: -3s;
 	-webkit-animation-duration: 10s;
 	animation-duration: 10s;
-	fill: hsla(0, 0%, 100%, .5)
+	fill: hsla(340, 100.0%, 93.5%, .5)
 }
 
 .waves-area .parallax>use:nth-child(3) {
@@ -148,7 +180,7 @@ ol{
 	animation-delay: -4s;
 	-webkit-animation-duration: 13s;
 	animation-duration: 13s;
-	fill: hsla(0, 0%, 100%, .3)
+	fill: hsla(177, 100.0%, 86.9%, .3)
 }
 
 .waves-area .parallax>use:nth-child(4) {
@@ -156,7 +188,7 @@ ol{
 	animation-delay: -5s;
 	-webkit-animation-duration: 20s;
 	animation-duration: 20s;
-	fill: #fff
+	fill: hsla(340, 100.0%, 93.5%, .5)
 }
 
 @-webkit-keyframes move-forever {
@@ -220,7 +252,10 @@ ol{
 	text-decoration: none;
 }
 .indexPlate a{
-	color: inherit;
+background-color: #FFDEE9;
+background-image: linear-gradient(293deg, #FFDEE9 16%, #bcfffc 100%);
+
+
 }
 .commentlist {
 	clear: both;
